@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>YouTube</title>
+    <link rel="icon" type="image/png" href="static/img/youtube.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--jQuery-->
+    <script src="static/js/jquery-1.11.0.min.js"></script>
+    <script src="{{ STATIC_URL }}js/myjQuery.js"></script>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+
+    <!-- Semantic UI -->
+    <link rel="stylesheet" href="static/css/semantic.min.css">
+    <script src="static/js/semantic.min.js"></script>
+
+    <!-- .less file-->
+    <link rel="stylesheet/less" type="text/css" href="static/css/styles.less"/>   
+    <!--include less.js-->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/1.7.0/less.min.js"></script>
+
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="container-fluid onenavbar">
+      <div class="row ">
+        <div class="col-sm-1">
+          <img src="static/img/yout.jpg" class="img-responsive" alt="Responsive image">
+        </div>
+        <div class="col-sm-1">
+          <div class="ui icon button bar-content-height">
+            <i class="reorder icon"></i>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="ui form">
+            <div class="field">
+              <input type="text" class="bar-content-height" style="display:inline; width:80%;">
+              <div class="ui button bar-content bar-content-height" ><i class="search icon"></i></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-2 col-sm-offset-2">
+          <div class="ui left green attached button">上傳</div>
+          <div class="right attached red ui button">登入</div>
+        </div>
+      </div>   
+    </div>
+
+  </body>
+
+</html>
